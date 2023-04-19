@@ -22,7 +22,7 @@ jobs:
     container:
       image: ubuntu:22.04
     env:
-      GITHUB_SHA2: ${{ GITHUB_SHA }}
+      GITHUB_SHA2: $GITHUB_SHA
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
